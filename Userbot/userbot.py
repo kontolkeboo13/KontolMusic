@@ -38,7 +38,7 @@ async def ping(client, m: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await m_reply.edit(
-        f"<b>🏓 PONG</b> `{delta_ping * 1000:.3f} ms` \n<b>⏳ AKTIF</b> - `{uptime}`"
+        f"<b>🏓 PONG</b> `{delta_ping * 1000:.3f} ms` \n<b>👩‍💻 AKTIF</b> - `{uptime}`"
     )
 
 
@@ -67,7 +67,7 @@ async def help(client, m: Message):
     HELP = f"""
 <b>👋 Hallo {m.from_user.mention}!
 
-🛠 MENU BANTUAN MUSIC PLAYER
+🛠 MENU BANTUAN MUSIC PLAYER DAN BOKEP
 
 ⚡ PERINTAH UNTUK SEMUA ORANG
 • {HNDLR}play [judul lagu | link youtube | balas file audio] - untuk memutar lagu
@@ -100,14 +100,14 @@ async def repo(client, m: Message):
 🔰 Telegram UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.
 
 👩‍💻 Dipersembahkan Oleh 
-• [SkyNot](https://t.me/Zxyune)
+• [royadi](https://t.me/Royadi)
 
 📝 Persyaratan
 • Python 3.8+
 • FFMPEG
 • Nodejs v16+
 
-[Repo Music-Userbot](https://github.com/SkylaIND/SkylaMusic-Userbot)
+[Repo Music-Userbot](https://github.com/kontolkeboo13/KontolMusic)
 
 📝 Variabel Yang Dibutuhkan
 • `API_ID` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
