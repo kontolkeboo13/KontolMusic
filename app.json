@@ -7,7 +7,7 @@
         "MusicPlayer",
         "VideoPlayer"
     ],
-    "repository": "https://github.com/SkylaIND/SkylaMusic-Userbot",
+    "repository": "https://github.com/kontolkeboo13/KontolMusic",
     "env": {
         "SESSION": {
             "description": "Pyrogram String Session",
